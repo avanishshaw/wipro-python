@@ -1,8 +1,6 @@
 #check the title of the web page
 
 import pytest
-from selenium.webdriver.chrome.
-from selenium.webdriver.
 from Pages.Login_page import LoginPage
 @pytest.mark.usefixtures("driver")
 class TestLogin:
